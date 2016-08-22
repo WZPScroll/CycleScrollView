@@ -15,6 +15,12 @@
 		9DD4739E1D6A9CF200836029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD4739C1D6A9CF200836029 /* LaunchScreen.storyboard */; };
 		9DD473A91D6A9CF200836029 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD473A81D6A9CF200836029 /* _______Tests.m */; };
 		9DD473B41D6A9CF200836029 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD473B31D6A9CF200836029 /* _______UITests.m */; };
+		9DD473C31D6AA1FC00836029 /* 说明.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9DD473C11D6AA1FC00836029 /* 说明.txt */; };
+		9DD473C51D6AA21900836029 /* TimeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD473C41D6AA21900836029 /* TimeScrollView.m */; };
+		9DD473CB1D6AA47B00836029 /* 图3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DD473C71D6AA47B00836029 /* 图3.png */; };
+		9DD473CC1D6AA47B00836029 /* 图2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DD473C81D6AA47B00836029 /* 图2.png */; };
+		9DD473CD1D6AA47B00836029 /* 图1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DD473C91D6AA47B00836029 /* 图1.png */; };
+		9DD473CE1D6AA47B00836029 /* 图4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DD473CA1D6AA47B00836029 /* 图4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,13 @@
 		9DD473AF1D6A9CF200836029 /* 自动无限轮播图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自动无限轮播图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD473B31D6A9CF200836029 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		9DD473B51D6A9CF200836029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD473C11D6AA1FC00836029 /* 说明.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "说明.txt"; sourceTree = "<group>"; };
+		9DD473C21D6AA1FC00836029 /* TimeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeScrollView.h; sourceTree = "<group>"; };
+		9DD473C41D6AA21900836029 /* TimeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeScrollView.m; sourceTree = "<group>"; };
+		9DD473C71D6AA47B00836029 /* 图3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图3.png"; sourceTree = "<group>"; };
+		9DD473C81D6AA47B00836029 /* 图2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图2.png"; sourceTree = "<group>"; };
+		9DD473C91D6AA47B00836029 /* 图1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图1.png"; sourceTree = "<group>"; };
+		9DD473CA1D6AA47B00836029 /* 图4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图4.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +116,14 @@
 			children = (
 				9DD473911D6A9CF200836029 /* AppDelegate.h */,
 				9DD473921D6A9CF200836029 /* AppDelegate.m */,
+				9DD473C11D6AA1FC00836029 /* 说明.txt */,
+				9DD473C61D6AA24F00836029 /* 轮播控件 */,
 				9DD473941D6A9CF200836029 /* ViewController.h */,
 				9DD473951D6A9CF200836029 /* ViewController.m */,
+				9DD473CA1D6AA47B00836029 /* 图4.png */,
+				9DD473C71D6AA47B00836029 /* 图3.png */,
+				9DD473C81D6AA47B00836029 /* 图2.png */,
+				9DD473C91D6AA47B00836029 /* 图1.png */,
 				9DD473971D6A9CF200836029 /* Main.storyboard */,
 				9DD4739A1D6A9CF200836029 /* Assets.xcassets */,
 				9DD4739C1D6A9CF200836029 /* LaunchScreen.storyboard */,
@@ -138,6 +157,15 @@
 				9DD473B51D6A9CF200836029 /* Info.plist */,
 			);
 			path = "自动无限轮播图UITests";
+			sourceTree = "<group>";
+		};
+		9DD473C61D6AA24F00836029 /* 轮播控件 */ = {
+			isa = PBXGroup;
+			children = (
+				9DD473C21D6AA1FC00836029 /* TimeScrollView.h */,
+				9DD473C41D6AA21900836029 /* TimeScrollView.m */,
+			);
+			name = "轮播控件";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +271,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD473CD1D6AA47B00836029 /* 图1.png in Resources */,
+				9DD473CB1D6AA47B00836029 /* 图3.png in Resources */,
+				9DD473CC1D6AA47B00836029 /* 图2.png in Resources */,
+				9DD473CE1D6AA47B00836029 /* 图4.png in Resources */,
 				9DD4739E1D6A9CF200836029 /* LaunchScreen.storyboard in Resources */,
 				9DD4739B1D6A9CF200836029 /* Assets.xcassets in Resources */,
+				9DD473C31D6AA1FC00836029 /* 说明.txt in Resources */,
 				9DD473991D6A9CF200836029 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD473C51D6AA21900836029 /* TimeScrollView.m in Sources */,
 				9DD473961D6A9CF200836029 /* ViewController.m in Sources */,
 				9DD473931D6A9CF200836029 /* AppDelegate.m in Sources */,
 				9DD473901D6A9CF200836029 /* main.m in Sources */,
@@ -498,6 +532,7 @@
 				9DD473BA1D6A9CF200836029 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DD473BB1D6A9CF200836029 /* Build configuration list for PBXNativeTarget "自动无限轮播图Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +541,7 @@
 				9DD473BD1D6A9CF200836029 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DD473BE1D6A9CF200836029 /* Build configuration list for PBXNativeTarget "自动无限轮播图UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +550,7 @@
 				9DD473C01D6A9CF200836029 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
